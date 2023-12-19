@@ -75,7 +75,79 @@ document.getElementById("texto")
 
 //oque siginifica (var)
 /*
- var -> pode ser redeclarado a qual quer momento 
- let --> vai pegar o valor uma ves e nao pode ser reatribuido  mas pode ter mudança em bloco {...}
- const ---> Nao tem como mudar o valoer e aquele e jaera
+ (var) -> pode ser redeclarado a qual quer momento 
+ (let )--> vai pegar o valor uma ves e nao pode ser reatribuido  mas pode ter mudança em bloco {...}
+ (const )---> Nao tem como mudar o valoer e aquele e jaera
  */
+
+ //Aula 07 operadores 
+
+ //vamos entender sobre operadores 
+ //atribuir valore coparar valore e executar valores aritimetico e muito mas
+
+ /*Sao parado em 6 categoria 
+ 1) operador aritimetico +-/* >= <= == === || && != ++ --
+
+ 2) Operador de atribuiçao =<--- atribuir
+
+ 3) Operador de sequencia + sequencia
+
+ 4) operador de comparaçao == ou === !=
+
+ 5) Operador logico && || !
+
+ 6)operador condicional o ternario  exemplo >=idade
+
+ */
+ 
+ //ex 1 aritimetico
+
+ /*var valor1 , valor2 ,total ;
+ valor1 = 10;
+ valor2 = 5;
+ total = ++valor1 + valor2;
+ console.log(total) 
+ */
+
+ //Ex 2 atribuiçao
+ 
+ /*var valor1 , valor2 ,total ;
+ valor1 = 10;
+ valor2 = 5;
+
+ total = valor1 += valor2
+ console.log(total)*/
+
+ //temos de concatenisaçao 
+
+ /*var valor1 , valor2 ,total ;
+ valor1 = "gabriel ";
+ valor2 = "alves";
+             //esse cinal nao e mas aritimetico agora e sequencia +     
+ total = valor1 + valor2
+console.log(total)*/
+
+//operadores de comparaçao
+
+/*var valor1 , valor2 ,total ;
+ valor1 = 8 ;
+ valor2 = 8 ;
+ total = (valor1 == === != !== <= >= > < valor2);
+ console.log(total)
+*/
+ //O perador ternario 
+
+ /*var idade, eleitor;
+ idade= 125;  // operador ternario ou condicional
+ eleitor = idade
+if(idade  >=  16 ){
+    console.log(`voce vota tem  ${idade} ano`)
+} else if(idade <= 16){
+    console.log(`voce e menor de idade, voce tem ${idade} anos`)
+}
+*/
+
+ 
+
+
+
