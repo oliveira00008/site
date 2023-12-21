@@ -147,7 +147,74 @@ if(idade  >=  16 ){
 }
 */
 
- 
+
+//Aula de Funcoes 
+/*Uma funçao de javascript e um bloco de codigo
+ projetado para executar uma tarefa especifica.*/
 
 
+ //exenplo de function.
+ /*function soma(valor1, valor2){
+    return valor1 + valor2; 
+ }*/
+/*aqui eu to pedindo para colocar dento do meu elemento texto soma valor1 e valor2*/
+/*
+esse e um exemplo
+document.getElementById("texto").innerHTML = soma (130,10)*/
+
+/*segundo exemplo e esse com variavel e alert.
+var total = soma(10,30)
+alert(total)*/
+
+// 2 exemplo de funçao
+/*function realParaDolar(real, cotacaodolar) {
+    return real * cotacaodolar;
+}
+var valorReal = 7.89;
+var cotacao = 5.08;
+
+var total = realParaDolar(valorReal, cotacao)
+alert(`sua converçao de real para dolar fo de R$ ${total}e sua cotaçao de dolar e ${cotacao}`);
+*/
+
+/* 3 exemplo de funçao so que para celsius o farenais calor frio etc..
+function paraCelsius(valorFahrenheit){
+    return (5/9) * (valorFahrenheit - 32);
+}
+
+var x = paraCelsius(90);
+alert("atemperatura e de " +x+ "graus celsius");
+*/
+///////////////////////////////////////////////////////
+
+
+//aula de objetos 
+
+//Sao basicamento variaveis com muitos valore dentro.
+
+//Exemplos de objeto
+//CADA PLOBIEDADE TEM UM VALOR DENTO DO OBJETO.
+//e uma platica colocar objto como const nao com let.
+//Tem tambem o (metudo) e uma funçao colocada dentro de uma propriedade.
+/*const carro = {
+    marca:"ford",
+    modelo:"ka",
+    ano:2015,
+    placa:"ABC-1234",
+    //exemplo 1 metodo
+    buzina: function()  {alert('biiiiiiiiiiiiii')},
+
+    // exemlo 2 para pegar um item do proplio objeto assim
+   completo: function () {
+    return " A marca e " +/*this este objeto*///this.marca+ "e o modelo e : "+ this.modelo;
+   /*}
+}*/
+
+/*mostrando a funcao metodo exemplo 1
+console.log(carro)
+//chamar um objeto dentro do meu carro eu uso assim
+carro.buzina();*/
+
+/*metodo do exemplo 2 para mostrar 
+console.log(carro.completo())*/
 
